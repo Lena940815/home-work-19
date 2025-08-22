@@ -8,7 +8,7 @@ console.log(getRandomInt(1, 100));
 
 // #2
 function greetByName(msg, name) {
-  return msg + "," + " " + name;
+  return `${msg}, ${name}`;
 }
 console.log(greetByName("Hi", "John"));
 console.log(greetByName("Hey", "Bob"));
